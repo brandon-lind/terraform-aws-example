@@ -1,0 +1,10 @@
+variable "app_name" {}
+variable "az_count" {}
+variable "docdb_instance_class" {}
+variable "docdb_password" {}
+variable "docdb_username" {}
+variable "stage" {}
+variable "tags_name" {}
+variable "vpc_id" {}
+variable "aws_subnet_private_ids" {}
+variable "aws_subnet_public_ids" {}

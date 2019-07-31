@@ -1,0 +1,17 @@
+variable "app_count" {}
+variable "app_name" {}
+variable "app_image" {}
+variable "app_port" {}
+variable "app_port_host" {}
+variable "awslogs_group" {}
+variable "az_count" {}
+variable "fargate_cpu" {}
+variable "fargate_memory" {}
+variable "region" {}
+variable "site_name" {}
+variable "stage" {}
+variable "tags_name" {}
+variable "vpc_id" {}
+variable "app2_alb_arn" {}
+variable "aws_subnet_private_ids" {}
+variable "aws_subnet_public_ids" {}

@@ -1,0 +1,33 @@
+awslogs_group = "lindsft-terraform-example"
+namespace = "lindsft-terraform-example"
+region    = "us-east-1"
+stage     = "dev"
+tags_name = "lindsft-terraform-example"
+
+az_count       = "2"
+vpc_cidr_block = "10.0.0.0/16"
+
+app1_name           = "lindsft-terraform-example-app1"
+app1_image          = "<appawsaccount>.dkr.ecr.us-east-1.amazonaws.com/lindsoftware/terraform-example-app1:latest"
+app1_port           = "80"
+app1_port_host      = "3000"
+app1_count          = "2"
+app1_fargate_cpu    = "256"
+app1_fargate_memory = "512"
+
+app2_name           = "lindsft-terraform-example-app2"
+app2_image          = "<appawsaccount>.dkr.ecr.us-east-1.amazonaws.com/lindsoftware/terraform-example-app2:latest"
+app2_port           = "80"
+app2_port_host      = "3000"
+app2_count          = "2"
+app2_fargate_cpu    = "256"
+app2_fargate_memory = "512"
+
+docdb_name           = "lindsft-documentdb"
+docdb_instance_class = "db.r4.large"
+docdb_password       = "<docdb_password>"
+docdb_username       = "<docdb_username>"
+
+domain_name  = "lindsoftware.com"
+site_name    = "terraform.lindsoftware.com"
+tls_cert_arn = "arn:aws:acm:us-east-1:<appawsaccount>:certificate/<appcertid>"

@@ -1,0 +1,16 @@
+{
+  "name": "lindsft-example-app1",
+  "version": "1.0.0",
+  "description": "A quick example showing connected applications in a terraform setup",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Lind <brandon@lindsoftware.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  }
+}
